@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Gallery = () => {
     
     const list = useAppSelector(state => state.galleriaList.items);
-
+    // console.log(list[0].artist.image)
     return ( 
         <MainContainer>
             {list.map((item,index) =>
@@ -26,9 +26,6 @@ const ImgContainer = styled.div`
     align-items: center;
     justify-content: center;
     position:relative;
-    img{
-        /* Width:335px; */
-    }
 `
 const PhotoName = styled.h1`
     position:absolute;

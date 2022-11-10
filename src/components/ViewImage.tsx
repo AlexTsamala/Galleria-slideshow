@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import ViewIcon from "../assets/icon-view-image.svg";
-import {useState} from 'react'
+
 
 const ViewImage = (props: { setStatus: (arg0: boolean) => void; status: boolean; }) => {
 

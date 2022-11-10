@@ -11,6 +11,7 @@ const SlideSHow = () => {
     const statusHandler = () => {
         setStatus(!status)
     }
+    console.log(list[listOrder].artist.image)
     return (
         <>
         <Container>
@@ -22,8 +23,8 @@ const SlideSHow = () => {
             <ArtistsContainer>
                 <h1>{list[listOrder].name}</h1>
                 <span>{list[listOrder].artist.name}</span>
-                <ArtistMobile alt={list[listOrder].artist.name} src={list[listOrder].artist.image} />
-                <ArtistTablet alt={list[listOrder].artist.name} src={list[listOrder].artist.image} />
+                <ArtistMobile alt={list[listOrder].artist.name} src={process.env.PUBLIC_URL+list[listOrder].artist.image} />
+                <ArtistTablet alt={list[listOrder].artist.name} src={process.env.PUBLIC_URL+list[listOrder].artist.image} />
             </ArtistsContainer>
                 <ParagraphDiv>
                     <span>{list[listOrder].year}</span>

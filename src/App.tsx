@@ -10,7 +10,7 @@ function App() {
   const status = useAppSelector(state => state.galleriaList.show);
   useEffect(() => {
     dispatch(galleryListActions.fetchGalleriaList(infoList));
-},[])
+},[dispatch])
  
   return(
     <>

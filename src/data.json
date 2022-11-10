@@ -29,8 +29,8 @@
     "images": {
       "thumbnail": "/girl-with-pearl-earring/thumbnail.jpg",
       "hero": {
-        "small": "./girl-with-pearl-earring/hero-small.jpg",
-        "large": "./girl-with-pearl-earring/hero-large.jpg"
+        "small": "/girl-with-pearl-earring/hero-small.jpg",
+        "large": "/girl-with-pearl-earring/hero-large.jpg"
       },
       "gallery": "/girl-with-pearl-earring/gallery.jpg"
     }
@@ -191,8 +191,8 @@
     "images": {
       "thumbnail": "/the-basket-of-apples/thumbnail.jpg",
       "hero": {
-        "small": "./the-basket-of-apples/hero-small.jpg",
-        "large": "./the-basket-of-apples/hero-large.jpg"
+        "small": "/the-basket-of-apples/hero-small.jpg",
+        "large": "/the-basket-of-apples/hero-large.jpg"
       },
       "gallery": "/the-basket-of-apples/gallery.jpg"
     }
@@ -207,12 +207,12 @@
       "name": "Paul Cézanne"
     },
     "images": {
-      "thumbnail": "./the-boy-in-the-red-vest/thumbnail.jpg",
+      "thumbnail": "/the-boy-in-the-red-vest/thumbnail.jpg",
       "hero": {
-        "small": "./the-boy-in-the-red-vest/hero-small.jpg",
-        "large": "./the-boy-in-the-red-vest/hero-large.jpg"
+        "small": "/the-boy-in-the-red-vest/hero-small.jpg",
+        "large": "/the-boy-in-the-red-vest/hero-large.jpg"
       },
-      "gallery": "./the-boy-in-the-red-vest/gallery.jpg"
+      "gallery": "/the-boy-in-the-red-vest/gallery.jpg"
     }
   },
   {
@@ -225,12 +225,12 @@
       "name": "Jan van Eyck"
     },
     "images": {
-      "thumbnail": "./arnolfini-portrait/thumbnail.jpg",
+      "thumbnail": "/arnolfini-portrait/thumbnail.jpg",
       "hero": {
-        "small": "./arnolfini-portrait/hero-small.jpg",
-        "large": "./arnolfini-portrait/hero-large.jpg"
+        "small": "/arnolfini-portrait/hero-small.jpg",
+        "large": "/arnolfini-portrait/hero-large.jpg"
       },
-      "gallery": "./arnolfini-portrait/gallery.jpg"
+      "gallery": "/arnolfini-portrait/gallery.jpg"
     }
   },
   {
